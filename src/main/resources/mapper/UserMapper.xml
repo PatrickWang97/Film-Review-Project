@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jobanalysis.demo.mapper.UserMapper">
+    <select id="login" resultType="com.jobanalysis.demo.entity.User">
+        select * from user where userName=#{username} and password=#{password}
+    </select>
+
+    <insert id="register" parameterType="com.jobanalysis.demo.entity.User">
+        insert into user(userName,password) values (#{userName},#{password})
+    </insert>
+
+    <update id="updateusersinfo" parameterType="com.jobanalysis.demo.entity.User">
+        update user set user.userName=#{username},user.password=#{password} where user.id=#{id}
+    </update>
+
+    <select id="favoritemovies" resultType="String">
+        select favorites from user where id=#{id}
+    </select>
+
+</mapper>

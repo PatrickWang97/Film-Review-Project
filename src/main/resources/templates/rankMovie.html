@@ -1,0 +1,145 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>电影评分</title>
+    <!--<script type="text/javascript" src="resouces/static/js/time.js"></script>-->
+    <script type="text/javascript" src="/static/js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<div id="regLogin" class="wrap">
+    <div class="dialog">
+        <div class="box">
+            <h4>
+                <center>电影评分</center>
+            </h4>
+
+            <form id="insertRank.action" name="insertRank.action" action="insertRank.action" method="post">
+
+                <div style="display: none">
+                    <input type="text" id="id" name="id">
+                </div>
+
+                <div class="infos" style="text-align:center;">
+                    <table class="field" style="text-align:center;">
+                        <tr>
+                            <td colspan="2" style="text-align:center; color:red"></td>
+                        </tr>
+
+                        <tr style="text-align:center ;margin-left:300px;">
+                            <td class="field" style="color:black;">
+                                <center>电影名：</center>
+                            </td>
+                            <td>
+                                <input type="text" name="name" value="${name}" id="name" class="text" style="border:0px;"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="field">电影类型：</td>
+                            <td>
+                                <input type="text" name="type" value="${type}"  id="type" class="text" style="border:0px;"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="field">语言：</td>
+                            <td>
+                                <input type="text" name="language" value="${language}"  id="language" class="text" style="border:0px;"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="field">上映时间：</td>
+                            <td>
+                                <input type="text" name="releaseDate" value="${releaseDate}"  id="releaseDate" class="text" style="border:0px;"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="field">电影演员表：</td>
+                            <td>
+                                <input type="text" name="actors" value="${actors}"  id="actors" class="text" style="border:0px";/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="field">封面路径：</td>
+                            <td>
+                                <input type="text" name="cover" value="${cover}"  id="cover" class="text" style="border:0px";/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="field">评分：</td>
+                            <td>
+                                <input type="text" name="averageScore" value="${averageScore}"  id="averageScore" class="text" style="border:0px";/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="field">评分人数：</td>
+                            <td>
+                                <input type="text" name="liked" value="${liked}"  id="liked" class="text" style="border:0px";/>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="field" style="color:black;">
+                                <center>用户ID：</center>
+                            </td>
+                            <td>
+                                <input type="text" name="userID" value="1" id="userID" class="text"/>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="field">电影ID：</td>
+                            <td>
+                                <input type="text" name="movieID" value=""  id="movieID" class="text"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="field">得分：</td>
+                            <td>
+                                <input type="text" name="score" value=""  id="score" class="text"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="field">评论：</td>
+                            <td>
+                                <input type="text" name="comment" value=""  id="comment" class="text"/>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="buttons">
+                        <input type="submit" id="insertRank" value="评分"/>
+                    </div>
+                </div>
+            </form>
+
+            <!--            <div id="result"><p th:text="${session.errormsg}">[]</p></div>-->
+
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $.ajax({
+            url:"/findMovieByID",
+            type:"GET",
+            contentType:'application/json;charset=UTF-8',
+            data:{
+                id:window.location.href.split("=")[1]
+            },
+            dataType:"JSON",
+            success:function (data) {
+                $("#id").val(window.location.href.split("=")[1]);
+                $("#name").val(data.name);
+                $("#type").val(data.type);
+                $("#language").val(data.language);
+                $("#releaseDate").val(data.releaseDate);
+                $("#actors").val(data.actors);
+                $("#cover").val(data.cover);
+                $("#averageScore").val(data.averageScore);
+                $("#liked").val(data.liked);
+            }
+        });
+    });
+</script>
+</body>
+</html>

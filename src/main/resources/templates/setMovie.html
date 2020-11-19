@@ -1,0 +1,83 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>新增电影信息</title>
+    <!--<script type="text/javascript" src="resouces/static/js/time.js"></script>-->
+</head>
+<body>
+<div id="regLogin" class="wrap">
+    <div class="dialog">
+        <div class="box">
+            <h4>
+                <center>电影信息设置</center>
+            </h4>
+            <form id="insertMovie.action" name="insertMovie.action" action="insertMovie.action" method="post">
+                <div class="infos" style="text-align:center;">
+                    <table class="field" style="text-align:center;">
+                        <tr>
+                            <td colspan="2" style="text-align:center; color:red"></td>
+                        </tr>
+                        <tr style="text-align:center ;margin-left:300px;">
+                            <td class="field" style="color:black;">
+                                <center>电影名：</center>
+                            </td>
+                            <td>
+                                <input type="text" name="name" value="" id="name" class="text" required="true"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="field">电影类型：</td>
+                            <td>
+                                <input type="text" name="type" id="type" class="text" required="true"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="field">语言：</td>
+                            <td>
+                                <input type="text" name="language" id="language" class="text" required="true"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="field">上映时间：</td>
+                            <td>
+                                <input type="text" name="releaseDate" id="releaseDate" class="text" required="true"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="field">电影演员表：</td>
+                            <td>
+                                <input type="text" name="actors" id="actors" class="text" required="true"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="field">封面路径：</td>
+                            <td>
+                                <input type="text" name="cover" id="cover" class="text" required="true"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="field">评分：</td>
+                            <td>
+                                <input type="text" name="averageScore" id="averageScore" class="text" required="true"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="field">评分人数：</td>
+                            <td>
+                                <input type="text" name="liked" id="liked" class="text" required="true"/>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="buttons">
+                        <input type="submit" id="insertMyMovie" value="上传"/>
+                    </div>
+                </div>
+            </form>
+
+<!--            <div id="result"><p th:text="${session.errormsg}">[]</p></div>-->
+
+        </div>
+    </div>
+</div>
+

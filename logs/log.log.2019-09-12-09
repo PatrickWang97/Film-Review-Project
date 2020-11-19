@@ -1,0 +1,7 @@
+[recommend]INFO 2019-09-12 09:00:06 Initializing Servlet 'dispatcherServlet'
+[recommend]INFO 2019-09-12 09:00:06 Completed initialization in 6 ms
+[recommend]INFO 2019-09-12 09:00:06 movies - Starting...
+[recommend]INFO 2019-09-12 09:00:07 movies - Start completed.
+[recommend]INFO 2019-09-12 09:04:10 Shutting down ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-12 09:04:10 movies - Shutdown initiated...
+[recommend]INFO 2019-09-12 09:04:10 movies - Shutdown completed.

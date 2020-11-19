@@ -1,0 +1,24 @@
+[recommend]INFO 2019-09-09 08:36:01 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-09-09 08:36:01 Starting DemoApplication on DESKTOP-Q88S4IB with PID 11028 (D:\workspace\workspace_scala\jobanalysis\target\classes started by zhuchengxi in D:\workspace\workspace_scala\jobanalysis)
+[recommend]INFO 2019-09-09 08:36:01 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-09-09 08:36:03 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-09-09 08:36:03 Root WebApplicationContext: initialization completed in 2002 ms
+[recommend]INFO 2019-09-09 08:36:03 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-09 08:36:03 Adding welcome page template: index
+[recommend]INFO 2019-09-09 08:36:04 Tomcat started on port(s): 8080 (http) with context path ''
+[recommend]INFO 2019-09-09 08:36:04 Started DemoApplication in 3.309 seconds (JVM running for 4.749)
+[recommend]INFO 2019-09-09 08:36:27 Initializing Servlet 'dispatcherServlet'
+[recommend]INFO 2019-09-09 08:36:27 Completed initialization in 7 ms
+[recommend]INFO 2019-09-09 08:36:27 movies - Starting...
+[recommend]INFO 2019-09-09 08:36:28 movies - Start completed.
+[recommend]INFO 2019-09-09 08:40:02 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-09-09 08:40:03 Starting DemoApplication on DESKTOP-Q88S4IB with PID 3408 (D:\workspace\workspace_scala\jobanalysis\target\classes started by zhuchengxi in D:\workspace\workspace_scala\jobanalysis)
+[recommend]INFO 2019-09-09 08:40:03 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-09-09 08:40:04 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-09-09 08:40:04 Root WebApplicationContext: initialization completed in 1225 ms
+[recommend]INFO 2019-09-09 08:40:04 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-09 08:40:04 Adding welcome page template: index
+[recommend]INFO 2019-09-09 08:40:05 Tomcat started on port(s): 8080 (http) with context path ''
+[recommend]INFO 2019-09-09 08:40:05 Started DemoApplication in 2.205 seconds (JVM running for 3.274)
+[recommend]INFO 2019-09-09 08:40:15 Initializing Servlet 'dispatcherServlet'
+[recommend]INFO 2019-09-09 08:40:15 Completed initialization in 7 ms

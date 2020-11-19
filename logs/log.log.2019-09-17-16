@@ -1,0 +1,53 @@
+[recommend]INFO 2019-09-17 15:25:38 Initializing Servlet 'dispatcherServlet'
+[recommend]INFO 2019-09-17 15:25:38 Completed initialization in 8 ms
+[recommend]WARN 2019-09-17 15:26:48 No mapping for GET /tologin
+[recommend]INFO 2019-09-17 16:42:56 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-09-17 16:42:56 Starting DemoApplication on localhost with PID 17000 (started by ASUS in C:\Users\ASUS\Desktop\实训\jobanalysis)
+[recommend]INFO 2019-09-17 16:42:56 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-09-17 16:42:59 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-09-17 16:43:00 Root WebApplicationContext: initialization completed in 3537 ms
+[recommend]INFO 2019-09-17 16:43:01 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-17 16:43:01 Adding welcome page template: index
+[recommend]INFO 2019-09-17 16:43:01 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[recommend]ERROR 2019-09-17 16:43:01 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+[recommend]INFO 2019-09-17 16:43:01 Shutting down ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-17 16:50:53 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-09-17 16:50:53 Starting DemoApplication on localhost with PID 20692 (started by ASUS in C:\Users\ASUS\Desktop\实训\jobanalysis)
+[recommend]INFO 2019-09-17 16:50:53 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-09-17 16:50:55 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-09-17 16:50:57 Root WebApplicationContext: initialization completed in 3223 ms
+[recommend]INFO 2019-09-17 16:50:57 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-17 16:50:58 Adding welcome page template: index
+[recommend]INFO 2019-09-17 16:50:58 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[recommend]ERROR 2019-09-17 16:50:58 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+[recommend]INFO 2019-09-17 16:50:58 Shutting down ExecutorService 'applicationTaskExecutor'

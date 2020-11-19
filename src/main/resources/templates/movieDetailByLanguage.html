@@ -1,0 +1,110 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>电影详细信息展示</title>
+    <!--<script type="text/javascript" src="resouces/static/js/time.js"></script>-->
+    <script type="text/javascript" src="/static/js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<div id="regLogin" class="wrap">
+    <div class="dialog">
+        <div class="box">
+            <h4>
+                <center>电影详细信息展示</center>
+            </h4>
+
+
+            <div style="display: none"><input type="text" id="id" name="id"></div>
+            <div class="infos" style="text-align:center;">
+                <table class="field" style="text-align:center;">
+                    <tr>
+                        <td colspan="2" style="text-align:center; color:red"></td>
+                    </tr>
+                    <tr style="text-align:center ;margin-left:300px;">
+                        <td class="field" style="color:black;">
+                            <center>电影名：</center>
+                        </td>
+                        <td>
+                            <input type="text" name="name" value="${name}" id="name" class="text" style="border:0px;"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="field">电影类型：</td>
+                        <td>
+                            <input type="text" name="type" value="${type}"  id="type" class="text" style="border:0px;"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="field">语言：</td>
+                        <td>
+                            <input type="text" name="language" value="${language}"  id="language" class="text" style="border:0px;"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="field">上映时间：</td>
+                        <td>
+                            <input type="text" name="releaseDate" value="${releaseDate}"  id="releaseDate" class="text" style="border:0px;"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="field">电影演员表：</td>
+                        <td>
+                            <input type="text" name="actors" value="${actors}"  id="actors" class="text" style="border:0px";/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="field">封面路径：</td>
+                        <td>
+                            <input type="text" name="cover" value="${cover}"  id="cover" class="text" style="border:0px";/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="field">评分：</td>
+                        <td>
+                            <input type="text" name="averageScore" value="${averageScore}"  id="averageScore" class="text" style="border:0px";/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="field">评分人数：</td>
+                        <td>
+                            <input type="text" name="liked" value="${liked}"  id="liked" class="text" style="border:0px";/>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <!--            <div id="result"><p th:text="${session.errormsg}">[]</p></div>-->
+
+        </div>
+    </div>
+</div>
+<script>
+    var myLanguage = encodeURI(encodeURI(window.location.href.split("=")[1]));
+    $(function () {
+        $.ajax({
+            url:"/findMovieByLanguage",
+            type:"GET",
+            contentType:'application/json;charset=UTF-8',
+            data:{
+                language:myLanguage
+            },
+            dataType:"JSON",
+            success:function (data) {
+                $("#id").val(data.id);
+                $("#name").val(data.name);
+                $("#type").val(data.type);
+                $("#language").val(window.location.href.split("=")[1]);
+                $("#releaseDate").val(data.releaseDate);
+                $("#actors").val(data.actors);
+                $("#cover").val(data.cover);
+                $("#averageScore").val(data.averageScore);
+                $("#liked").val(data.liked);
+            }
+
+
+        });
+    });
+</script>
+</body>
+</html>

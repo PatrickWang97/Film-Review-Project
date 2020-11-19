@@ -1,0 +1,13 @@
+[recommend]INFO 2019-09-20 08:41:15 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-09-20 08:41:15 Starting DemoApplication on localhost with PID 14464 (started by ASUS in C:\Users\ASUS\Desktop\实训\jobanalysis)
+[recommend]INFO 2019-09-20 08:41:15 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-09-20 08:41:17 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-09-20 08:41:19 Root WebApplicationContext: initialization completed in 3340 ms
+[recommend]INFO 2019-09-20 08:41:19 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-20 08:41:20 Adding welcome page template: index
+[recommend]INFO 2019-09-20 08:41:20 Tomcat started on port(s): 8080 (http) with context path ''
+[recommend]INFO 2019-09-20 08:41:20 Started DemoApplication in 5.192 seconds (JVM running for 8.692)
+[recommend]INFO 2019-09-20 08:42:41 Initializing Servlet 'dispatcherServlet'
+[recommend]INFO 2019-09-20 08:42:41 Completed initialization in 10 ms
+[recommend]INFO 2019-09-20 08:42:50 doubian - Starting...
+[recommend]INFO 2019-09-20 08:42:50 doubian - Start completed.

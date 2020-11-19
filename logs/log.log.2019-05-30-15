@@ -1,0 +1,11 @@
+[recommend]INFO 2019-05-30 15:14:02 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-05-30 15:14:02 Starting DemoApplication on DESKTOP-Q88S4IB with PID 11032 (D:\workspace\workspace_scala\jobanalysis\target\classes started by zhuchengxi in D:\workspace\workspace_scala\jobanalysis)
+[recommend]INFO 2019-05-30 15:14:02 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-05-30 15:14:03 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-05-30 15:14:03 Root WebApplicationContext: initialization completed in 1141 ms
+[recommend]INFO 2019-05-30 15:14:03 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-05-30 15:14:03 Adding welcome page template: index
+[recommend]INFO 2019-05-30 15:14:04 Tomcat started on port(s): 8080 (http) with context path ''
+[recommend]INFO 2019-05-30 15:14:04 Started DemoApplication in 2.149 seconds (JVM running for 2.885)
+[recommend]INFO 2019-05-30 15:14:42 Initializing Servlet 'dispatcherServlet'
+[recommend]INFO 2019-05-30 15:14:42 Completed initialization in 6 ms

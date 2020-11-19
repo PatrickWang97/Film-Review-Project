@@ -1,0 +1,242 @@
+[recommend]INFO 2019-09-19 15:00:21 Initializing Servlet 'dispatcherServlet'
+[recommend]INFO 2019-09-19 15:00:21 Completed initialization in 11 ms
+[recommend]INFO 2019-09-19 15:00:31 doubian - Starting...
+[recommend]INFO 2019-09-19 15:00:32 doubian - Start completed.
+[recommend]INFO 2019-09-19 15:08:11 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-09-19 15:08:11 Starting DemoApplication on localhost with PID 12064 (started by ASUS in C:\Users\ASUS\Desktop\实训\jobanalysis)
+[recommend]INFO 2019-09-19 15:08:11 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-09-19 15:08:13 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-09-19 15:08:14 Root WebApplicationContext: initialization completed in 2914 ms
+[recommend]INFO 2019-09-19 15:08:15 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-19 15:08:15 Adding welcome page template: index
+[recommend]INFO 2019-09-19 15:08:15 Tomcat started on port(s): 8080 (http) with context path ''
+[recommend]INFO 2019-09-19 15:08:15 Started DemoApplication in 4.762 seconds (JVM running for 7.143)
+[recommend]INFO 2019-09-19 15:08:41 Initializing Servlet 'dispatcherServlet'
+[recommend]INFO 2019-09-19 15:08:41 Completed initialization in 8 ms
+[recommend]INFO 2019-09-19 15:08:45 doubian - Starting...
+[recommend]INFO 2019-09-19 15:08:45 doubian - Start completed.
+[recommend]INFO 2019-09-19 15:10:06 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-09-19 15:10:07 Starting DemoApplication on localhost with PID 16160 (started by ASUS in C:\Users\ASUS\Desktop\实训\jobanalysis)
+[recommend]INFO 2019-09-19 15:10:07 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-09-19 15:10:09 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-09-19 15:10:10 Root WebApplicationContext: initialization completed in 3428 ms
+[recommend]INFO 2019-09-19 15:10:11 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-19 15:10:11 Adding welcome page template: index
+[recommend]INFO 2019-09-19 15:10:12 Tomcat started on port(s): 8080 (http) with context path ''
+[recommend]INFO 2019-09-19 15:10:12 Started DemoApplication in 5.778 seconds (JVM running for 8.11)
+[recommend]INFO 2019-09-19 15:10:20 Initializing Servlet 'dispatcherServlet'
+[recommend]INFO 2019-09-19 15:10:20 Completed initialization in 13 ms
+[recommend]INFO 2019-09-19 15:10:26 doubian - Starting...
+[recommend]INFO 2019-09-19 15:10:26 doubian - Start completed.
+[recommend]ERROR 2019-09-19 15:10:26 [THYMELEAF][http-nio-8080-exec-2] Exception processing template "register": Error resolving template [register], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [register], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[recommend]INFO 2019-09-19 15:21:15 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-09-19 15:21:15 Starting DemoApplication on localhost with PID 19656 (started by ASUS in C:\Users\ASUS\Desktop\实训\jobanalysis)
+[recommend]INFO 2019-09-19 15:21:15 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-09-19 15:21:17 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-09-19 15:21:18 Root WebApplicationContext: initialization completed in 2904 ms
+[recommend]INFO 2019-09-19 15:21:19 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-19 15:21:19 Adding welcome page template: index
+[recommend]INFO 2019-09-19 15:21:19 Tomcat started on port(s): 8080 (http) with context path ''
+[recommend]INFO 2019-09-19 15:21:19 Started DemoApplication in 4.784 seconds (JVM running for 7.31)
+[recommend]INFO 2019-09-19 15:21:27 Initializing Servlet 'dispatcherServlet'
+[recommend]INFO 2019-09-19 15:21:27 Completed initialization in 10 ms
+[recommend]INFO 2019-09-19 15:21:30 doubian - Starting...
+[recommend]INFO 2019-09-19 15:21:30 doubian - Start completed.
+[recommend]INFO 2019-09-19 15:22:22 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-09-19 15:22:22 Starting DemoApplication on localhost with PID 20276 (started by ASUS in C:\Users\ASUS\Desktop\实训\jobanalysis)
+[recommend]INFO 2019-09-19 15:22:22 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-09-19 15:22:24 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-09-19 15:22:25 Root WebApplicationContext: initialization completed in 2894 ms
+[recommend]INFO 2019-09-19 15:22:26 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-19 15:22:26 Adding welcome page template: index
+[recommend]INFO 2019-09-19 15:22:27 Tomcat started on port(s): 8080 (http) with context path ''
+[recommend]INFO 2019-09-19 15:22:27 Started DemoApplication in 4.708 seconds (JVM running for 7.068)
+[recommend]INFO 2019-09-19 15:22:33 Initializing Servlet 'dispatcherServlet'
+[recommend]INFO 2019-09-19 15:22:33 Completed initialization in 11 ms
+[recommend]INFO 2019-09-19 15:22:33 doubian - Starting...
+[recommend]INFO 2019-09-19 15:22:33 doubian - Start completed.
+[recommend]INFO 2019-09-19 15:24:55 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-09-19 15:24:56 Starting DemoApplication on localhost with PID 6648 (started by ASUS in C:\Users\ASUS\Desktop\实训\jobanalysis)
+[recommend]INFO 2019-09-19 15:24:56 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-09-19 15:24:58 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-09-19 15:24:59 Root WebApplicationContext: initialization completed in 3017 ms
+[recommend]INFO 2019-09-19 15:25:00 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-19 15:25:00 Adding welcome page template: index
+[recommend]INFO 2019-09-19 15:25:00 Tomcat started on port(s): 8080 (http) with context path ''
+[recommend]INFO 2019-09-19 15:25:00 Started DemoApplication in 5.059 seconds (JVM running for 7.44)
+[recommend]INFO 2019-09-19 15:25:05 Initializing Servlet 'dispatcherServlet'
+[recommend]INFO 2019-09-19 15:25:05 Completed initialization in 9 ms
+[recommend]INFO 2019-09-19 15:25:05 doubian - Starting...
+[recommend]INFO 2019-09-19 15:25:06 doubian - Start completed.
+[recommend]INFO 2019-09-19 15:25:58 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-09-19 15:25:59 Starting DemoApplication on localhost with PID 10296 (started by ASUS in C:\Users\ASUS\Desktop\实训\jobanalysis)
+[recommend]INFO 2019-09-19 15:25:59 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-09-19 15:26:00 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-09-19 15:26:02 Root WebApplicationContext: initialization completed in 2882 ms
+[recommend]INFO 2019-09-19 15:26:02 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-19 15:26:03 Adding welcome page template: index
+[recommend]INFO 2019-09-19 15:26:03 Tomcat started on port(s): 8080 (http) with context path ''
+[recommend]INFO 2019-09-19 15:26:03 Started DemoApplication in 4.587 seconds (JVM running for 7.148)
+[recommend]INFO 2019-09-19 15:26:20 Initializing Servlet 'dispatcherServlet'
+[recommend]INFO 2019-09-19 15:26:20 Completed initialization in 11 ms
+[recommend]INFO 2019-09-19 15:26:24 doubian - Starting...
+[recommend]INFO 2019-09-19 15:26:24 doubian - Start completed.
+[recommend]INFO 2019-09-19 15:30:58 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-09-19 15:30:58 Starting DemoApplication on localhost with PID 9044 (started by ASUS in C:\Users\ASUS\Desktop\实训\jobanalysis)
+[recommend]INFO 2019-09-19 15:30:58 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-09-19 15:31:00 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-09-19 15:31:01 Root WebApplicationContext: initialization completed in 2859 ms
+[recommend]INFO 2019-09-19 15:31:02 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-19 15:31:02 Adding welcome page template: index
+[recommend]INFO 2019-09-19 15:31:03 Tomcat started on port(s): 8080 (http) with context path ''
+[recommend]INFO 2019-09-19 15:31:03 Started DemoApplication in 4.725 seconds (JVM running for 7.094)
+[recommend]INFO 2019-09-19 15:31:11 Initializing Servlet 'dispatcherServlet'
+[recommend]INFO 2019-09-19 15:31:11 Completed initialization in 11 ms
+[recommend]INFO 2019-09-19 15:31:15 doubian - Starting...
+[recommend]INFO 2019-09-19 15:31:15 doubian - Start completed.
+[recommend]ERROR 2019-09-19 15:31:15 [THYMELEAF][http-nio-8080-exec-1] Exception processing template "register": Error resolving template [register], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [register], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[recommend]INFO 2019-09-19 15:34:22 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-09-19 15:34:23 Starting DemoApplication on localhost with PID 15436 (started by ASUS in C:\Users\ASUS\Desktop\实训\jobanalysis)
+[recommend]INFO 2019-09-19 15:34:23 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-09-19 15:34:25 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-09-19 15:34:26 Root WebApplicationContext: initialization completed in 3204 ms
+[recommend]INFO 2019-09-19 15:34:27 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-19 15:34:27 Adding welcome page template: index
+[recommend]INFO 2019-09-19 15:34:27 Tomcat started on port(s): 8080 (http) with context path ''
+[recommend]INFO 2019-09-19 15:34:27 Started DemoApplication in 5.442 seconds (JVM running for 7.967)
+[recommend]INFO 2019-09-19 15:34:37 Initializing Servlet 'dispatcherServlet'
+[recommend]INFO 2019-09-19 15:34:37 Completed initialization in 12 ms
+[recommend]INFO 2019-09-19 15:34:41 doubian - Starting...
+[recommend]INFO 2019-09-19 15:34:41 doubian - Start completed.
+[recommend]INFO 2019-09-19 15:37:35 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-09-19 15:37:35 Starting DemoApplication on localhost with PID 12068 (started by ASUS in C:\Users\ASUS\Desktop\实训\jobanalysis)
+[recommend]INFO 2019-09-19 15:37:35 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-09-19 15:37:37 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-09-19 15:37:38 Root WebApplicationContext: initialization completed in 2960 ms
+[recommend]INFO 2019-09-19 15:37:39 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-19 15:37:39 Adding welcome page template: index
+[recommend]INFO 2019-09-19 15:37:39 Tomcat started on port(s): 8080 (http) with context path ''
+[recommend]INFO 2019-09-19 15:37:39 Started DemoApplication in 4.811 seconds (JVM running for 7.308)
+[recommend]INFO 2019-09-19 15:37:46 Initializing Servlet 'dispatcherServlet'
+[recommend]INFO 2019-09-19 15:37:46 Completed initialization in 9 ms
+[recommend]INFO 2019-09-19 15:37:50 doubian - Starting...
+[recommend]INFO 2019-09-19 15:37:50 doubian - Start completed.
+[recommend]INFO 2019-09-19 15:39:35 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-09-19 15:39:35 Starting DemoApplication on localhost with PID 18824 (started by ASUS in C:\Users\ASUS\Desktop\实训\jobanalysis)
+[recommend]INFO 2019-09-19 15:39:35 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-09-19 15:39:37 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-09-19 15:39:38 Root WebApplicationContext: initialization completed in 2868 ms
+[recommend]INFO 2019-09-19 15:39:39 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-19 15:39:39 Adding welcome page template: index
+[recommend]INFO 2019-09-19 15:39:39 Tomcat started on port(s): 8080 (http) with context path ''
+[recommend]INFO 2019-09-19 15:39:39 Started DemoApplication in 4.661 seconds (JVM running for 6.932)
+[recommend]INFO 2019-09-19 15:39:57 Initializing Servlet 'dispatcherServlet'
+[recommend]INFO 2019-09-19 15:39:57 Completed initialization in 13 ms
+[recommend]INFO 2019-09-19 15:40:09 doubian - Starting...
+[recommend]INFO 2019-09-19 15:40:09 doubian - Start completed.

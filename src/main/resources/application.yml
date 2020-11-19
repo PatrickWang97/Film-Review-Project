@@ -1,0 +1,25 @@
+server:
+  #  站点端口
+  port: 8080
+
+spring:
+  datasource:
+    #    数据库名称
+    name: mybatis
+    #    数据库连接地址 jdbc:mysql://master.lab.hwadee.com:3306/movies
+    url: jdbc:mysql://localhost:3306/mybatis?serverTimezone=GMT&characterEncoding=UTF-8
+    #    账户密码
+    username: root
+    password: 123456
+    #    数据库驱动名称
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  mvc:
+    static-path-pattern: /static/**
+
+mybatis:
+  #  实体类的路径，存放的是Java类
+  type-aliases-package: com.jobanalysis.entity
+  #  映射文件路径，存放是Java类与数据表的映射关系
+  mapper-locations: classpath:mapper/*.xml
+

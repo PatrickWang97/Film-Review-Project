@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jobanalysis.demo.mapper.MovieMapper">
+
+
+  <insert id="addMovie" parameterType="com.jobanalysis.demo.entity.Movie">
+    insert into movie ( name, type,
+      language, releaseDate,actors,cover,averageScore,liked)
+    values (#{name},#{type},#{language},#{releaseDate},#{actors},#{cover},#{averageScore},#{liked}
+      )
+  </insert>
+
+
+  <select id="selectMovieDetail" resultType="com.jobanalysis.demo.entity.Movie"
+          parameterType="Integer">
+        select * from movie where id=#{id}
+    </select>
+
+  <select id="selectMovieByType" resultType="com.jobanalysis.demo.entity.Movie"
+          parameterType="String">
+        select * from movie where type like "%"#{type}"%"
+    </select>
+
+  <select id="selectMovieByLanguage" resultType="com.jobanalysis.demo.entity.Movie"
+          parameterType="String">
+        select * from movie where language like "%"#{language}"%"
+    </select>
+
+  <select id="selectMovieByName" resultType="com.jobanalysis.demo.entity.Movie"
+          parameterType="String">
+        select * from movie where name like "%"#{name}"%"
+    </select>
+
+  <select id="selectMovieByActor" resultType="com.jobanalysis.demo.entity.Movie"
+          parameterType="String">
+        select * from movie where name actors "%"#{actors}"%"
+    </select>
+
+  <select id="pageOfMovieByRankDESC" resultType="com.jobanalysis.demo.entity.Movie"
+          parameterType="Integer">
+        select * from movie order by averageScore desc
+    </select>
+
+  <select id="pageOfMovieByRankTop" resultType="com.jobanalysis.demo.entity.Movie"
+          parameterType="Integer">
+        select * from movie order by averageScore desc limit 10
+    </select>
+
+  <select id="pageOfMovieByRankASC" resultType="com.jobanalysis.demo.entity.Movie"
+          parameterType="Integer">
+        select * from movie order by averageScore asc
+    </select>
+
+  <select id="pageOfMovieByTimeDESC" resultType="com.jobanalysis.demo.entity.Movie"
+          parameterType="Integer">
+        select * from movie order by releaseDate desc
+    </select>
+
+  <select id="pageOfMovieByTimeASC" resultType="com.jobanalysis.demo.entity.Movie"
+          parameterType="Integer">
+        select * from movie order by releaseDate asc
+    </select>
+
+
+  <update id="updateMovie" parameterType="com.jobanalysis.demo.entity.Movie">
+    update movie
+    <set>
+      <if test="name !=null and name !=''">
+        name=#{name},
+      </if>
+      <if test="type !=null and type !=''">
+        type=#{type},
+      </if>
+      <if test="language !=null and language !=''">
+        language=#{language},
+      </if>
+      <if test="releaseDate !=null and releaseDate !=''">
+        releaseDate=#{releaseDate},
+      </if>
+      <if test="actors !=null and actors !=''">
+        actors=#{actors},
+      </if>
+      <if test="cover !=null and cover !=''">
+        cover=#{cover},
+      </if>
+      <if test="averageScore !=null and averageScore !=''">
+        averageScore=#{averageScore},
+      </if>
+      <if test="liked !=null and liked !=''">
+        liked=#{liked},
+      </if>
+    </set>
+    where id=#{id}
+  </update>
+
+
+</mapper>

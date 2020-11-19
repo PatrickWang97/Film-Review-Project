@@ -1,0 +1,34 @@
+[recommend]INFO 2019-09-17 14:57:41 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-09-17 14:57:41 Starting DemoApplication on localhost with PID 23356 (started by ASUS in C:\Users\ASUS\Desktop\实训\jobanalysis)
+[recommend]INFO 2019-09-17 14:57:41 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-09-17 14:57:45 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-09-17 14:57:46 Root WebApplicationContext: initialization completed in 4973 ms
+[recommend]INFO 2019-09-17 14:57:47 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-17 14:57:47 Adding welcome page template: index
+[recommend]INFO 2019-09-17 14:57:47 Tomcat started on port(s): 8080 (http) with context path ''
+[recommend]INFO 2019-09-17 14:57:47 Started DemoApplication in 6.537 seconds (JVM running for 7.443)
+[recommend]INFO 2019-09-17 14:58:04 HV000001: Hibernate Validator 6.0.16.Final
+[recommend]INFO 2019-09-17 14:58:04 Starting DemoApplication on localhost with PID 13976 (started by ASUS in C:\Users\ASUS\Desktop\实训\jobanalysis)
+[recommend]INFO 2019-09-17 14:58:04 No active profile set, falling back to default profiles: default
+[recommend]INFO 2019-09-17 14:58:07 Tomcat initialized with port(s): 8080 (http)
+[recommend]INFO 2019-09-17 14:58:08 Root WebApplicationContext: initialization completed in 4077 ms
+[recommend]INFO 2019-09-17 14:58:09 Initializing ExecutorService 'applicationTaskExecutor'
+[recommend]INFO 2019-09-17 14:58:09 Adding welcome page template: index
+[recommend]INFO 2019-09-17 14:58:09 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[recommend]ERROR 2019-09-17 14:58:09 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+[recommend]INFO 2019-09-17 14:58:09 Shutting down ExecutorService 'applicationTaskExecutor'

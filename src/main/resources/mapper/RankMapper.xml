@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jobanalysis.demo.mapper.RankMapper">
+
+    <insert id="addRank" parameterType="com.jobanalysis.demo.entity.Rank">
+    insert into rank ( userID, movieID,
+      score, comment)
+    values (#{userID},#{movieID},#{score},#{comment}
+      )
+  </insert>
+
+    <select id="findCommentOfMovie" resultType="com.jobanalysis.demo.entity.Rank"
+            parameterType="Integer">
+        select * from rank where movieID=#{movieID}
+    </select>
+
+    <select id="findScoreOfMovie" parameterType="Integer"
+            resultType="Integer">
+        select sum(score) from rank where movieID=#{movieID}
+    </select>
+
+    <select id="findCountOfMovie" parameterType="Integer"
+            resultType="Integer">
+        select count(*) from rank where movieID=#{movieID}
+    </select>
+
+    <select id="findCommentOfMyself" resultType="com.jobanalysis.demo.entity.Rank"
+            parameterType="Integer">
+        select * from rank where userID=#{userID}
+    </select>
+
+
+</mapper>
